@@ -1,5 +1,5 @@
 [[redirects]]
     from="/api/*"
-    to= 'http://api-ecommerce-app.bluetickcoders.com/:splat'
+    to= "http://api-ecommerce-app.bluetickcoders.com/:splat"
     status=200
     force=true
