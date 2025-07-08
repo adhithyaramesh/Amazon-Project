@@ -3,7 +3,7 @@ import axios from "axios";
 
 //base url
 export const FetchApi = axios.create({
-    baseURL: 'http://api-ecommerce-app.bluetickcoders.com'
+    baseURL: "/api"
 })
 
 
