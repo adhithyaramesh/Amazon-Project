@@ -130,7 +130,7 @@ export const Landing = () => {
         const bannerData = await GetRequest("/topBanners");
         const landingData = await GetRequest("/landing");
 
-        setBannerImage(bannerData?.[0]?.bannerImagePath);
+        setBannerImage(bannerData?.[0]?.bannerImagePath.replace("http://api-ecommerce-app.bluetickcoders.com", "/api"));
         setCategories(landingData);
       } catch (error) {
         console.error("Error fetching data:", error);
