@@ -153,7 +153,7 @@ export const Product = () => {
                 }}
               >
                 <img
-                  src={`${item.fileBaseUrl}${item.productImages?.[0]?.productImagePath}.replace("http://api-ecommerce-app.bluetickcoders.com", "/api")`}
+                  src={`${item.fileBaseUrl.replace("http://api-ecommerce-app.bluetickcoders.com", "/api")}${item.productImages?.[0]?.productImagePath}`}
                   height={
                     isSmallest
                       ? 120
