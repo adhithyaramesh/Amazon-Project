@@ -160,7 +160,7 @@ export const Landing = () => {
           {categories.map((item, index) => {
             const firstProduct = item.product?.[0];
             const imageUrl =
-              firstProduct.fileBaseUrl +
+              firstProduct.fileBaseUrl.replace("http://api-ecommerce-app.bluetickcoders.com", "/api") +
               firstProduct.productImages?.[0].productImagePath;
 
             return (
