@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Tab, Tooltip, Typography } from '@mui/material';
-import { GetRequest } from '../../api/Config';
+import { GetRequest } from '../../api/config';
 import { HeaderContainer, StyledTabs, TooltipHover } from '../../styles/NavBar';
 import { useNavigate } from "react-router-dom";
 
