@@ -136,7 +136,7 @@ export const ViewProductDetail = () => {
                                 </Box>
                             )}
                             <img
-                                src={item.productImages?.length > 0 && item.productImages[0].productImagePath}
+                                src={item.productImages?.length > 0 && item.productImages[0].productImagePath.replace("http://api-ecommerce-app.bluetickcoders.com", "/api")}
                                 alt="Product"
                                 style={{
                                     width: "100%",

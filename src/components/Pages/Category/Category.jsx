@@ -71,7 +71,7 @@ export const Category = () => {
                         >
                             <CBox>
                                 <img
-                                    src={category.categoryImagePath}
+                                    src={category.categoryImagePath.replace("http://api-ecommerce-app.bluetickcoders.com", "/api")}
                                     alt={category.name}
                                     style={{ maxHeight: '100%', maxWidth: '100%', objectFit: 'contain' }}
                                 />

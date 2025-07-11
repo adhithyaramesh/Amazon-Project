@@ -68,7 +68,7 @@ export const SubCategory = () => {
             >
               <CBox>
                 <img
-                  src={item.product[0]?.productImages[0]?.productImagePath}
+                  src={item.product[0]?.productImages[0]?.productImagePath.replace("http://api-ecommerce-app.bluetickcoders.com", "/api")}
                   alt={item.name}
                   style={{ 
                     maxHeight: "100%", 
